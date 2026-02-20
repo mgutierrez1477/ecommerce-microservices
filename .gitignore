@@ -1,0 +1,31 @@
+#Entornos virtuales
+.venv/
+venv/
+env/
+ENV/
+
+#Variables y secretos
+.env
+
+#Archivos generados por python no necesarios
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+#Archivos generados por pytest al correr los tests
+.pytest_cache/
+
+#Reporte de cobertura de tests
+.coverage
+htmlcov/
+
+#Editores de codigo (configuraciones locales de vs code)
+.vscode/
+
+#Archivos miniatura de windows
+Thumbs.db
+
+#Logs
+*.log
+logs/
