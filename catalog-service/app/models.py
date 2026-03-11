@@ -89,7 +89,7 @@ class Product(Base):
     # ==============================
     # COLUMNA: descripcion
     # ==============================
-    descripcion = Column(
+    description = Column(
         # Text no tiene límite de longitud, ideal para descripciones
         # largas. String(n) tiene limite fijo.
         Text,
