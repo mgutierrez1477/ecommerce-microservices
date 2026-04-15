@@ -5,8 +5,7 @@ Todo el resto de la aplicación importa 'SessionLocal' y 'Base' desde aquí.
 """
 import os #Permite interactuar con variables del sistema operativo(variables de entorno)
 from sqlalchemy import create_engine, text #create engine para conectar la base de datos y text para ejecutar consultar en segundo plano
-from sqlalchemy.ext.declarative import declarative_base #Permite crear una clase base para definir modelos usando el orm de sqlalchemy
-from sqlalchemy.orm import sessionmaker #Permite crear sesiones  para interactuar con la base de datos (queries, commits, etc)
+from sqlalchemy.orm import sessionmaker, declarative_base #Permite crear sesiones  para interactuar con la base de datos (queries, commits, etc)
 from dotenv import load_dotenv #Permite cargar variables desde un archivo .env
 
 # load_dotenv() lee el archivo .env y carga cada línea como
