@@ -1,0 +1,24 @@
+# Entorno virtual — Docker instala sus propias dependencias
+.venv/
+
+# Variables de entorno — se pasan al contenedor de otra forma
+.env
+
+# Tests — no necesarios en producción
+tests/
+
+# Caché de Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Git
+.git/
+.gitignore
+
+# Pytest
+.pytest_cache/
+.coverage
+
+# Archivos temporales
+*.log
